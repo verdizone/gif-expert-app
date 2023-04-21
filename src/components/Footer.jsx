@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <h3>Autor:</h3>
           <p>Jeroham Miranda</p>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/verdizone/" target={"_blank"}>
             <img 
               className="imagen-link" 
               src={logo} alt="linkedIn_logo.png" />

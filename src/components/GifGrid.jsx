@@ -19,7 +19,7 @@ const GifGrid = ({category}) => {
         {
             imagen.map(img=>(
                 <div key={img.id}>
-                    <img src={img.url} alt={`Imagen de ${img.title}`} />
+                    <img src={img.url} alt={img.title} />
                     <p>{img.title}</p>
                 </div>
             ))
